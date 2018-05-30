@@ -1,0 +1,227 @@
+.main-body {
+    min-height: 400px;
+    width: 74%;
+    margin: 34px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu-nav {
+    min-height: 300px;
+    width: 22%;
+}
+.main-content {
+    min-height: 400px;
+    width: 75%;
+}
+.menu-nav-ul {
+    border: 1px solid #ddd;
+}
+.menu-nav-ul li {
+    border-bottom: 1px solid #ddd;
+}
+.menu-nav-ul li:first-child a {
+    font-size: 16px;
+}
+.menu-nav-ul li a {
+    display: block;
+    text-align: center;
+    height: 36px;
+    line-height: 36px;
+    color: #555555;
+    font-size: 14px;
+    transition: 1s;
+}
+.menu-nav-ul li a:hover {
+    background-color: #dddddd;
+}
+.menu-nav-ul li a.menu-na-selected {
+    background-color: #64a131;
+    color: white;
+}
+
+.account-base {
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid 1px #dddddd;
+}
+
+.account-left {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #64a131;
+    color: white;
+}
+.account-right {
+    width: 60%;
+}
+.user-headimg,.user-name {
+    width: 44%;
+}
+.user-headimg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.user-headimg img {
+    width: 104px;
+    height: 104px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.user-headimg a {
+    color: white;
+    text-decoration: underline;
+}
+.user-name p:first-child {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.account-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.account-right-li {
+    width: 33.33%;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.account-right-li div {
+    width: 100%;
+    border-right: 1px solid #ddd;
+    margin-left: 10px;
+}
+.account-right-li:last-child div {
+    border-right: none;
+}
+.account-right-li p {
+    margin: 10px;
+    color: #64a131;
+    font-size: 18px;
+}
+.account-right-li p:nth-child(2) {
+    color: #555555;
+}
+.account-right-li p a {
+    font-size: 16px;
+    color: #64a131;
+}
+
+.desc {
+    font-size: 16px;
+    color: #555555;
+    margin: 10px 0;
+}
+
+/* 订单列表 */
+.order-group {
+    border: solid 1px #dddddd;
+    margin: 8px 0;
+    color: #555555;
+}
+.order-group-head {
+    background-color: #f1f1f1;
+    height: 40px;
+    line-height: 40px;
+    color: #555555;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.order-group-head .group-head, .order-group-head .o-li{
+    padding-top: 0;
+    color: #999;
+    border: none;
+}
+.order-group-body {
+    display: flex;
+    flex-direction: row;
+    border-top: solid 1px #dddddd;
+    text-align: center;
+}
+.o-li {
+    border-left: solid 1px #dddddd;
+    width: 14%;
+    padding-top: 18px;
+    color: #555555;
+}
+.o-li:first-child {
+    border-left: none;
+}
+.order-product-list {
+    width: 58%;
+}
+
+.order-group-body span {
+    width: 100%;
+}
+.order-product-li {
+    display: flex;
+    flex-direction: row;
+    border-top: solid 1px #dddddd;
+    padding-top: 10px;
+}
+.order-product-li:first-child {
+    padding-top: 0;
+    border-top: none;
+}
+.o-p-li {
+    width: 25%;
+}
+.order-product-img {
+    width: 23%;
+}
+.order-product-img img {
+    width: 100%;
+}
+.order-product-amount {
+    width: 10%;
+}
+.order-product-price {
+    width: 18%;
+    color: #64a131;
+}
+.order-pay-money {
+    color: #64a131;
+}
+.order-product-name {
+    width: 59%;
+    text-align: left;
+}
+.order-op a {
+    color: #64a131;
+}
+
+/* 我的订单页面 */
+.status-choose {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: solid 2px #dddddd;
+    margin-bottom: 20px;
+}
+
+.status-choose-item div {
+    display: inline-block;
+}
+.status-choose-item div:last-child a {
+    border-right: none;
+}
+.status-choose-item div:hover, .s-c-item-now {
+    border-bottom: solid 2px #64a131;
+}
+
+.status-choose-item a {
+    border-right: solid 1px #dddddd;
+    padding: 0 20px;
+    color: #555555;
+}

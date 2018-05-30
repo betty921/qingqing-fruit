@@ -1,0 +1,40 @@
+.lunbo {
+    width: 100%;
+    height: 400px;
+}
+
+.tuijian {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.product-page {
+    margin-top: 50px;
+    border-top: 1px solid #ccc;
+}
+
+.product-page-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 25px 0 15px 0;
+}
+
+.product-category {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    letter-spacing: 0.2em;
+}
+.product-category span {
+    font-size: 23px;
+}
+.product-more a {
+    color: #333;
+}
+
+.ad img{
+    width: 100%;
+}

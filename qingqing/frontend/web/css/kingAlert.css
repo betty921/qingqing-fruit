@@ -1,0 +1,53 @@
+.king-alert-contain {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.36);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.king-alert {
+    width: 35%;
+    height: 170px;
+    margin: 100px auto;
+    border: solid 8px rgb(137,137,137);
+    background-color: white;
+}
+.alert-title {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #eaeaea;
+    color: #555555;
+    overflow: hidden;
+    font-size: 16px;
+}
+.alert-title span:first-child {
+    float: left;
+    margin-left: 15px;
+}
+.alert-title span:last-child {
+    float: right;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.alert-body {
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.btn-ok, .btn-cancel {
+    display: inline-block;
+    width: 100px;
+    height: 33px;
+    line-height: 30px;
+    background-color: #64a131;
+    margin: 0 13px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,175 @@
+.body-contain {
+    width: 75%;
+    margin: 0 auto;
+}
+.top {
+    margin-top: 30px;
+}
+.cart-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cart-title-desc {
+    color: #555555;
+    font-size: 20px;
+}
+.cart-title-desc span {
+    margin-left: 10px;
+}
+.cart-title a {
+    color: #64a131;
+}
+.cart-title a:hover {
+    text-decoration: underline;
+}
+
+/* 收货人信息 */
+.order-item {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    color: #555555;
+}
+.order-item-title {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.order-item-title span {
+    font-size: 16px;
+}
+.order-item-title a {
+    color: #5157a6;
+}
+.order-item-title a:hover {
+    color: #f6ab00;
+    text-decoration: underline;
+}
+.order-item-desc {
+    margin: 20px 35px;
+}
+.address-one {
+    margin-bottom: 20px;
+}
+.addr-op {
+    margin-left: 10px;
+}
+.address-one a, a.edit {
+    margin: 0 10px;
+    color: #5157a6;
+}
+
+.address-one a:hover,.edit:hover {
+    color: #f6ab00;
+    text-decoration: underline;
+}
+.distribution-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.distribution-info-group, .distribution-product {
+    width: 48%;
+}
+.group-item {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+.group-item:last-child {
+    border-bottom:none;
+}
+.group-item:nth-last-child(2) {
+    border-bottom:none;
+}
+.item-label {
+    width: 88px;
+}
+.item-value {
+    width: 100%;
+    overflow: hidden;
+}
+.edit {
+    display: inline-block;
+    float: right;
+}
+.remark {
+    width: 100%;
+    padding: 10px 10px;
+    height: 80px;
+    border: 1px solid #ddd;
+}
+.distribution-fee {
+    color: #64a131;
+}
+.p-litter-img {
+    width: 20%;
+    margin-right: 20px;
+}
+.p-litter-img img {
+    width: 100%;
+}
+.p-price-amount {
+    color: #999999;
+    margin: 8px 0;
+}
+.p-price-amount span:last-child {
+    margin-left: 50px;
+}
+.jifen, .coupon {
+    margin: 20px 0;
+}
+a.edit {
+    float: none;
+    margin-left: 50px;
+}
+.jifen input {
+    width: 80px;
+    height: 30px;
+    text-align: right;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #64a131;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    outline-color: #64a131;
+    margin: 0 5px;
+}
+.order-list {
+    text-align: right;
+    margin: 10px 0;
+    color: #999;
+}
+.order-list span {
+    display: inline-block;
+    width: 80px;
+}
+.list-name {
+}
+.submit-order {
+    height: 50px;
+    margin-top: 25px;
+    border: 1px solid #64a131;
+    background-color: #f5ffed;
+    line-height: 48px;
+    text-align: right;
+    color: #333;
+}
+.submit-btn {
+    display: inline-block;
+    width: 150px;
+    background-color: #64a131;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30px;
+}
+.total-price {
+    font-size: 22px;
+    color: #64a131;
+    font-weight: bold;
+}
+/* 收货人信息 end */

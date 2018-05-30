@@ -1,0 +1,267 @@
+/*
+    每个页面公共部分: 页头  页脚
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Hiragino Sans GB','Microsoft YaHei',sans-serif;
+    font-size: 14px;
+    color: #999;
+}
+a, a:link, a:hover, a:visited {
+    text-decoration: none;
+    color: #999;
+}
+ul, ul li {
+    list-style: none;
+}
+.nav-state {
+    background-color: rgb(238,238,238);
+    //padding: 5px 0;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.page {
+    width: 95%;
+    margin: 0 auto;
+}
+.nav-stat-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-left, .nav-right ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.nav-left .li {
+    margin: 0 5px
+}
+.nav-right ul li {
+    margin: 0 8px;
+}
+.icon{
+    width: 15px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.xyd a, .xyd a:link,.xyd a:visited {
+    color: #64a131;
+}
+.xyd a:hover {
+    text-decoration: underline;
+}
+
+.nav-nav {
+    height: 120px;
+    background-color: white;
+    padding: 20px 0;
+    color: #999;
+}
+.nav-nav-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.log-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-list {
+    display: flex;
+    flex-direction: row;
+}
+.logo {
+    margin-right: 60px;
+}
+.logo img {
+    width: 300px;
+}
+.nav-list li{
+    padding: 0 20px;
+    border-left: 1px solid #eee;
+    position: relative;
+    text-align: center;
+    min-width: 90px;
+}
+.nav-list>li:first-child{
+    border-left: none;
+}
+.nav-list li:hover {
+    background-color: #eee;
+}
+.em-selected {
+    position: absolute;
+    width: 90%;
+    border-bottom: 2px solid #64a131;
+    bottom: -35px;
+    left: 0;
+}
+
+.search-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.search-component form {
+    display: flex;
+    flex-direction: row;
+}
+.search-component form input[type=submit] {
+    width: 20px;
+    height: 20px;
+    background: none;
+    background-image: url("../images/search.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    outline-style: none;
+    border: none;
+}
+.search-component form input[type=submit]:hover {
+    cursor: pointer;
+}
+.search-component form input[type=text] {
+    border: none;
+    outline-style: none;
+}
+
+.search-hot {
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid #999;
+    margin-top: 5px;
+}
+.search-hot .li {
+    margin-right: 5px;
+}
+
+.shopping-cart-info {
+    margin: 0 15px;
+    position: relative;
+    background-color: #64a131;
+    color: white;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+.shopping-cart-info img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 4px;
+    left: 10px;
+}
+.shopping-cart-info span {
+    display: inline-block;
+    position: absolute;
+    left: 40%;
+    top: 5px;
+    font-size: 16px;
+    font-weight: bolder;
+    color: white;
+}
+
+.margin {
+    margin-top: 60px;
+}
+
+.footer {
+    border-top: 1px solid #ccc;
+}
+.footer-feature {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.feature-li {
+    width: 25%;
+    height: 60px;
+    background-image: url("../images/feature.png");
+    background-repeat: no-repeat;
+    border-left: 1px solid #ddd;
+}
+
+.l1 {
+    background-position: 40px 0;
+    border: none;
+}
+.l2 {
+    background-position: 40px -60px;
+}
+.l3 {
+    background-position: 40px -120px;
+}
+.l4 {
+    background-position: 40px -180px;
+}
+
+.footer-info {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.info-li {
+    text-align: center;
+}
+.tel {
+    font-size: 18px;
+
+}
+.info-li * {
+    display: inline-block;
+}
+.erweima {
+    display: flex;
+    flex-direction: row;
+
+}
+.weixin {
+    margin-right: 30px;
+}
+.service {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.service ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+}
+.service ul li {
+    margin: 5px 0;
+}
+.service ul>li:first-child {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+.copyright {
+    margin-top: 15px;
+    text-align: center;
+    min-height: 100px;
+}
+
+hr {
+    border: none;
+    border-bottom: solid 4px rgb(242,242,242);
+}
+
+/* 错误信息样式 */
+.errormsg {
+    color: red;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
